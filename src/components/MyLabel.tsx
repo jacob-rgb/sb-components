@@ -34,3 +34,5 @@ export const MyLabel = ( {label='No Label', size = 'normal', allCaps = false, co
         <span style={{color: fontColor}} className={ `label ${size} text-${color}` } >{label}</span>
     )
 }
+
+export default MyLabel;
